@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <div className="Full">
-        <Adress />
-        <Fullname />
+        <Adress Adress="Abane Ramdane" />
+        <Fullname FirstName="Salah" LastName="Heba" />
       </div>
       <Profilephoto />
     </div>

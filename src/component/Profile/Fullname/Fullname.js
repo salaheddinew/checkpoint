@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
-const Fullname = (mots) => {
+const Fullname = (props) => {
   return (
     <div className="asm">
-      <p className="asmi">Salah</p>
-      <p className="lakb">Heba</p>
+      <p className="asmi">{props.FirstName}</p>
+      <p className="lakb">{props.LastName}</p>
     </div>
   );
 };

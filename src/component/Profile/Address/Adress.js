@@ -1,8 +1,8 @@
 import "./style.css";
-const Adress = (mots) => {
+const Adress = (props) => {
   return (
     <div className="ABANE">
-      <p className="Ramdane">Abane Ramdane Alger</p>
+      <p className="Ramdane">{props.Adress}</p>
     </div>
   );
 };

@@ -2,10 +2,16 @@ import photoprof from "../../../fire.jpg";
 import "./style.css";
 import React from "react";
 
-const Profilephoto = (image) => {
+const Profilephoto = (props) => {
   return (
     <div className="Foto">
-      <img src={photoprof} className="photo" />
+      <img
+        onClick={() => {
+          alert("message");
+        }}
+        src={photoprof}
+        className="photo"
+      />
     </div>
   );
 };
