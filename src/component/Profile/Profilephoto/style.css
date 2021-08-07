@@ -1,0 +1,10 @@
+.photo {
+  border-radius: 100%;
+  box-shadow: rgb(7, 7, 7);
+  width: 60%;
+}
+.Foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+.ABANE {
+  margin: 10%;
+  border: 1rem;
+  background-color: blue;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.ABANE .Ramdane {
+  color: aqua;
+}
